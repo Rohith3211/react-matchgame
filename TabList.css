@@ -1,0 +1,16 @@
+.btn-items {
+  margin-right: 40px;
+  color: white;
+  background-color: transparent;
+  margin-top: 20px;
+  font-size: 17px;
+  border-width: 0px;
+}
+.color {
+  border-style: solid;
+  border-color: #fec653;
+  border-width: 3px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
