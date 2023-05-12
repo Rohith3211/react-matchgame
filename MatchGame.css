@@ -1,0 +1,141 @@
+.nav {
+  background-color: #2c0e3a;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+}
+.nav-logo {
+  height: 30px;
+}
+.timer {
+  height: 25px;
+  margin-left: 20px;
+}
+p {
+  color: white;
+  font-size: 15px;
+  margin-left: 5px;
+}
+span {
+  font-size: 19px;
+  color: #fec653;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.nav-card {
+  display: flex;
+  align-items: center;
+}
+.card2 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  min-height: 90vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0px;
+  align-items: center;
+}
+.img-height {
+  height: 270px;
+  width: 580px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+.images-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 40px;
+  padding-left: 0px;
+  width: 600px;
+}
+.game-over {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  height: 487px;
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.win-img {
+  height: 150px;
+}
+.play-btn {
+  background-color: #cf60c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 8px 10px 8px;
+  border-radius: 5px;
+  min-width: 120px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.score {
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.para {
+  font-size: 19px;
+  color: #fec653;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reset {
+  height: 27px;
+  margin-right: 10px;
+}
+.y-score {
+  font-weight: 500;
+  margin-top: 0px;
+}
+@media (max-width: 576px) {
+  .img-height {
+    height: 200px;
+    width: 350px;
+  }
+  .images-list {
+    width: 370px;
+    margin-top: 4px;
+  }
+  .buttons {
+    margin-top: 5px;
+  }
+  .nav-logo {
+    height: 20px;
+  }
+  .timer {
+    height: 20px;
+  }
+  .game-over {
+    height: 480px;
+    width: 290px;
+    border-radius: 10px;
+  }
+  .win-img {
+    height: 95px;
+  }
+  .play-btn {
+    width: 100px;
+    font-size: 10px;
+  }
+  .reset {
+    height: 17px;
+    margin-right: 10px;
+  }
+}
