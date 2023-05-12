@@ -1,0 +1,15 @@
+.small-img {
+  height: 90px;
+  width: 100px;
+  cursor: pointer;
+}
+.b-image {
+  background-color: transparent;
+  border-width: 0px;
+}
+@media (max-width: 576px) {
+  .b-image {
+    width: 90px;
+    height: 50px;
+  }
+}
